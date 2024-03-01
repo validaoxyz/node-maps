@@ -20,3 +20,10 @@ And run:
 pip install -r requirements.txt
 python run ips-to-location.py <input.csv> <output.csv>
 ```
+
+### Testing output
+You can run a local webserver and test the map with leaflet.
+From the /webserver directory:
+```
+python3 server.py
+```
